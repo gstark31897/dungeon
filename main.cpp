@@ -67,8 +67,9 @@ int main()
   Item * item;
   item = new Item("res/weapons/test.itm");
   item->render();
-  //fill_screen();
-  //size_screen();
+
+  fill_screen();
+  size_screen();
 
   cleanup();
   return 0;
